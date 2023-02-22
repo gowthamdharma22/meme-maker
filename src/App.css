@@ -50,8 +50,23 @@ main {
     max-width: 50%;
     font-family: "Karla", sans-serif;
     border-radius: 5px;
+    background-color: white;
+    color: #672280;
+    border-color: #672280;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 20px;
+}
+.form-btn:hover{
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     color: white;
     border: none;
-    cursor: pointer;
+}
+.meme-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    max-width: 500px;
 }
