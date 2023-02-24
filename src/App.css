@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 main {
-    padding: 36px;
+    padding: 40px;
 }
 .header {
     display: flex;
@@ -15,25 +15,26 @@ main {
     height: 65px;
     background: linear-gradient(100deg,#414141 ,#414141);
     color: white;
-    padding: 20px;
+    padding: 20px 20px 12px 40px;
+
 }
 .header-img {
     height: 150%;
-    margin-right: 6px;
+    margin-right: 10px;
 }
 
 .header-h2 {
-    font-size: 1.50rem;
+    font-size: 1.80rem;
     margin-right: auto;
 }
 
 .header-h4 {
-    font-size: 1.00rem;
+    font-size: 1.50rem;
     font-weight: 500;
 }
 .form {
     display: grid;
-    grid-template: 50px 50px / 1fr 1fr;
+    grid-template: 70px 70px / 1fr 1fr;
     gap: 17px;
 }
 
@@ -41,10 +42,13 @@ main {
     font-family: "Karla", sans-serif;
     border-radius: 5px;
     border: 1px solid #D5D4D8;
-    text-indent: 5px;
+    text-indent: 10px;
 }
 .form-inp:hover{
     border-color: black;
+}
+.form-inp::-webkit-input-placeholder{
+    font-size: 20px;
 }
 
 .form-btn {
@@ -59,12 +63,12 @@ main {
     border-radius: 3px;
     cursor: pointer;
     transition: 0.5s;
-    font-size: 15px;
+    font-size: 20px;
 }
 .form-btn:hover{
     background-color: white;
     color: black;
-    font-size: 16px;
+    font-size: 22px;
     border-radius: 3px;
     border-color: black;
 }
@@ -115,9 +119,25 @@ main {
     .meme-img{
         max-width: 100%;
     }
-}
-@media only screen and (max-width: 300px) {
-    .meme-img{
-        max-width: 100%;
+    .header{
+        padding: 20px;
+    }
+    .header-h2{
+        font-size: 1.50em;
+    }
+    .header-h4{
+        font-size: 1.00em;
+    }
+    .form{
+        grid-template: 50px 50px / 1fr 1fr;
+    }
+    .form-inp::-webkit-input-placeholder{
+        font-size: 15px;
+    }
+    .form-btn{
+        font-size: 12px;
+    }
+    .form-btn:hover{
+        font-size: 12px;
     }
 }
