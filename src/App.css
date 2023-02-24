@@ -50,7 +50,9 @@ main {
 .form-inp::-webkit-input-placeholder{
     font-size: 20px;
 }
-
+.form-inp[type="text"]{
+    font-size: 20px;
+}
 .form-btn {
     grid-column: 1 / -1;
     margin-left: 25%;
@@ -139,5 +141,8 @@ main {
     }
     .form-btn:hover{
         font-size: 12px;
+    }
+    .form-inp[type="text"]{
+        font-size: 13px;
     }
 }
